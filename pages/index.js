@@ -1,65 +1,65 @@
+import React, { useEffect } from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Typing from '../components/animations/Typing'
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Header2 from '../components/Header2';
+import Pricing from '../components/Pricing';
+import Toolkit from '../components/Toolkit';
+import Me from '../components/Me';
+import Services from '../components/Services';
+import Hero from '../components/Hero';
+import Logos from '../components/Logos';
+import Blog from '../components/Blog';
+import Footer from '../components/Footer';
+import Lottie from "lottie-web"
+import Reviews from '../components/Reviews';
+import Stories from '../components/Stories';
+import HeroSection from '../components/HeroSection';
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+const index = () => {
+   useEffect(() => {
+       Aos.init({ duration: 1000});
+   }, []);
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+    return (
+        <div className="dark:bg-black">
+             <Head>
+                <title>Geniti</title>
+                <link rel="Icon" href="/favicon.ico"></link>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+            </Head>
+            <HeroSection />
+<Services />
+<Me />
+<Reviews />
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+
+
+<Toolkit />
+<Pricing />
+<Logos />
+
+
+
+ <Footer />
+
+        
+<script src="./pages/toggle.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+    )
 }
+
+export default index
