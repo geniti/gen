@@ -12,10 +12,7 @@ function Me() {
       <img class="object-cover object-center rounded" alt="hero" src="https://www.geniti.nl/wp-content/uploads/2020/11/Geniti_Ramautarsing_black_white-removebg-preview.png"/>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-    <div class="flex flex-col text-left w-full mb-20" data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"
-     data-aos-duration="500">
+    <div class="flex flex-col text-left w-full mb-20" >
       <h2 class="text-base text-yellow-400 font-semibold tracking-wide uppercase">Dit is wie ik ben</h2>
       <h1 class="mt-3 text-5xl leading-10 font-extrabold tracking-tight text-gray-900 sm:text-6xl animate-pulse dark:text-white">Hi 👋</h1>
       <p class="mt-8 mb-8 md:pr-24 lg:pr-24 leading-relaxed dark:text-white dark:text-opacity-75">Mijn naam is Geniti, ik ben een creatieve webontwikkelaar met ruim vijf jaar ervaring. Ik maak razendsnelle websites, webshops en mobiele applicaties met de nieuwste technologie. In mijn vrije tijd speel ik graag een potje voetbal en ben ik geregeld te vinden op een terras!</p>
