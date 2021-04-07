@@ -44,7 +44,7 @@ const HeroSection = () => {
                     <button
                       onClick={handleClick}
                       type="button"
-                      class="bg-white dark:bg-black  toggle rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-400"
+                      className="bg-white dark:bg-black  toggle rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-400"
                       id="main-menu"
                       aria-haspopup="true"
                     >
@@ -77,7 +77,7 @@ const HeroSection = () => {
                   <button
                     onClick={handleClick}
                     type="button"
-                    class="bg-white dark:bg-black  rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-400"
+                    className="bg-white dark:bg-black  rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-400"
                   >
                     <span className="sr-only">Close main menu</span>
                     <svg viewBox="0 0 100 80" width="20" height="20">
@@ -140,7 +140,7 @@ const HeroSection = () => {
             <div className="text-center sm:text-center lg:text-left">
             <h1 className="mt-2 text-5xl leading-10 font-extrabold tracking-tight text-gray-900 sm:text-6xl">
         <span className="lg:inline-block dark:text-white">Razendsnelle</span>
-        <span class="mt-4  block text-yellow-400"><Typing /></span>
+        <span className="mt-4  block text-yellow-400"><Typing /></span>
       </h1>
               <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
               Voor wie opzoek is naar een partner die de juiste handvaten biedt om jouw online droom te verwezenlijken. Geniti denkt graag met je mee! ​

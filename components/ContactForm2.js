@@ -61,31 +61,31 @@ export default function ContactForm2() {
   return (
     <main id="contactform">
       <form onSubmit={handleOnSubmit}>
-        <div class=" mx-auto mt-10">
-      <div class="flex flex-wrap -m-2">
+        <div className=" mx-auto mt-10">
+      <div className="flex flex-wrap -m-2">
        
-        <div class="p-2 w-full">
-          <div class="relative" data-aos="fade" data-aos-duration="1500">
-            <label for="email" class="leading-7 text-sm text-gray-400 hidden">Email</label>
+        <div className="p-2 w-full">
+          <div className="relative" data-aos="fade" data-aos-duration="1500">
+            <label htmlFor="email" className="leading-7 text-sm text-gray-400 hidden">Email</label>
             <input type="email" id="email" name="email" placeholder="Jouw E-mail"  name="_replyto"
           onChange={handleOnChange}
           required
-          value={inputs.email} class="w-full bg-gray-100  rounded  focus:border-yellow-400  focus:ring-2 focus:ring-yellow-400 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+          value={inputs.email} className="w-full bg-gray-100  rounded  focus:border-yellow-400  focus:ring-2 focus:ring-yellow-400 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
           </div>
         </div>
        
-        <div class="p-2 w-full">
-          <div class="relative" data-aos="fade" data-aos-duration="2500">
-            <label for="message" class="leading-7 text-sm text-gray-400 hidden">Message</label>
+        <div className="p-2 w-full">
+          <div className="relative" data-aos="fade" data-aos-duration="2500">
+            <label htmlFor="message" className="leading-7 text-sm text-gray-400 hidden">Message</label>
             <textarea id="message" name="message" placeholder="Vertel mij wat je wil weten"  onChange={handleOnChange}
           required
-          value={inputs.message} class="w-full bg-gray-100  rounded  focus:border-yellow-400  focus:ring-2 focus:ring-yellow-400 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+          value={inputs.message} className="w-full bg-gray-100  rounded  focus:border-yellow-400  focus:ring-2 focus:ring-yellow-400 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
           </div>
         </div>
-        <div class="rounded shadow w-full" data-aos="fade">
+        <div className="rounded shadow w-full" data-aos="fade">
         <button
           type="submit"
-          class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-semibold rounded-md text-white bg-yellow-400 hover:bg-yellow-700 md:py-4 md:text-lg md:px-10"
+          className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-semibold rounded-md text-white bg-yellow-400 hover:bg-yellow-700 md:py-4 md:text-lg md:px-10"
           disabled={status.submitting}
         >
           {!status.submitting

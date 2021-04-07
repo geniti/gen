@@ -1,21 +1,15 @@
 import React, { useEffect } from 'react'
-import Link from 'next/link'
 import Head from 'next/head'
-import Typing from '../components/animations/Typing'
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Header2 from '../components/Header2';
 import Pricing from '../components/Pricing';
 import Toolkit from '../components/Toolkit';
 import Me from '../components/Me';
 import Services from '../components/Services';
-import Hero from '../components/Hero';
 import Logos from '../components/Logos';
 import Blog from '../components/Blog';
 import Footer from '../components/Footer';
-import Lottie from "lottie-web"
 import Reviews from '../components/Reviews';
-import Stories from '../components/Stories';
 import HeroSection from '../components/HeroSection';
 
 
