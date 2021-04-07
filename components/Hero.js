@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import Lottie from "lottie-web"
 import Typing from '../components/animations/Typing'
 
 
