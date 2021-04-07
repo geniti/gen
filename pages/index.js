@@ -26,7 +26,6 @@ const index = () => {
                 <link rel="Icon" href="/favicon.ico"></link>
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 
             </Head>
